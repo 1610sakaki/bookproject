@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block title %}書籍一覧{% endblock %}
+{% block content %}
+<form method="post">
+   {% csrf_token %}
+   <button type="submit">{{ object.title }}を削除する</button>
+</form>
+{% endblock content %}
