@@ -1,1 +1,1 @@
-#bookproject
+Django でCRUDを用いた本棚アプリケーションを作成しました
